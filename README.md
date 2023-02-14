@@ -4,7 +4,7 @@ This is a course project for Deep Learning Course ast CUHKSZ.
 
 
 
-
+```
 from PPVI import ProteinVI
 import scvi
 import scanpy as sc
@@ -21,3 +21,5 @@ ProteinVI.setup_anndata(adata, batch_key="batch", protein_expression_obsm_key="p
 
 vae = ProteinVI(adata)
 vae.train() 
+```
+
